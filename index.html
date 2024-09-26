@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyXConverter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Currency<span class="highlight-x">X</span>Converter</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#help">Help</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Currency Converter</h2>
+        <p>Convert your money in a click. Fast, easy, and accurate.</p>
+        <div class="home-banner">
+            <img src="https://ps.w.org/currency-converter-widget/assets/icon-128x128.png?rev=2563188" alt="Currency Conversion Banner" class="logo-img" />
+        </div>
+        <p>
+            Welcome to <strong>Currency<span class="highlight-x">X</span>Converter</strong>, 
+            your one-stop solution for quick and accurate currency conversions. Whether you're 
+            traveling the world, shopping internationally, or managing business finances, 
+            our platform allows you to convert currencies effortlessly with real-time exchange 
+            rates. With support for a wide range of global currencies, including US Dollar, 
+            Euro, Indian Rupee, and more, you can trust our service to provide the most 
+            up-to-date rates. Start converting today and make informed financial decisions 
+            with ease.
+        </p>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            At <strong>Currency<span class="highlight-x">X</span>Converter</strong>, 
+            we believe that managing your finances should be straightforward and 
+            accessible to everyone. Founded by a team of finance enthusiasts and technology
+            experts, our mission is to provide a seamless platform for currency conversion
+            that caters to travelers, businesses, and anyone in need of accurate exchange
+            rates. With a user-friendly interface and a commitment to transparency, we 
+            empower our users to make informed financial decisions with confidence. Our
+            team is continuously working to improve our services, ensuring that you 
+            have access to the latest currency trends and insights. Join us on our 
+            journey to simplify currency conversion for everyone!
+        </p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer the best currency conversion services for all your global transactions. Trusted by millions.</p>
+    </section>
+
+    <section id="converter">
+        <h2>Currency Converter</h2>
+        <form id="currency-form">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <label for="from-currency">From:</label>
+            <select id="from-currency" name="from-currency" required>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="INR">Indian Rupee</option>
+                <option value="AUD">Australian Dollar</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="HKD">Hong Kong Dollar</option>
+                <option value="SGD">Singapore Dollar</option>
+            </select>
+
+            <label for="to-currency">To:</label>
+            <select id="to-currency" name="to-currency" required>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="INR">Indian Rupee</option>
+                <option value="AUD">Australian Dollar</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="HKD">Hong Kong Dollar</option>
+                <option value="SGD">Singapore Dollar</option>
+            </select>
+
+            <button type="submit">Convert</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at support@currencyxconverter.com for any inquiries.</p>
+    </section>
+
+    <section id="help">
+        <h2>Need Help?</h2>
+        <p>Visit our FAQ page or contact our support for assistance with the currency converter.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CurrencyXConverter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
